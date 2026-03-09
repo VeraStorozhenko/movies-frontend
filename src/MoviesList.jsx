@@ -19,8 +19,8 @@ function MoviesList({ token, onLogout }) {
     year: "",
     rating: ""
   })
+  
   const [selectedMovie, setSelectedMovie] = useState(null)
-  const [currentMovie, setCurrentMovie] = useState(null)
   const [filterYear, setFilterYear] = useState("")
   const [filterRating, setFilterRating] = useState("")
   const [totalPages, setTotalPages] = useState(1)
